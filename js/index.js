@@ -29,7 +29,7 @@ setInterval(function() {
 
   // Set the innerHTML of the footer element
   document.querySelector("footer").innerHTML = "&nbsp;&nbsp;&copy; Vadim Dmitrochenko";
-  date.innerHTML = currentDate + " " + currentMonthName + " , " + thisYear + " " + currentTime;
+  date.innerHTML = currentMonthName + " " + currentDate + " , " + thisYear + " " + currentTime;
 
   // Append the date element to the footer
   footer.appendChild(date);
