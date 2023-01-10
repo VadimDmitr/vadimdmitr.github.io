@@ -9,26 +9,26 @@ body {
 
 section {
   margin: 20px;
-  padding: 15px;
+  padding: 20px;
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
 }
 #about {
   
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', monospace;
   font-weight: bold;
   background-color: #282c34;
   text-align: center;
   font-size: 80px;
-  padding-top: 22px;
+  margin: 20px auto;
+  margin-left: 35px;
   /*display: flex;
   flex-shrink: 0;
   flex-wrap: nowrap;
   white-space: nowrap;
   width: 100%;
-  margin: 20px auto;
   overflow: hidden;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -75,12 +75,12 @@ h6 {
 
 #experience {
   list-style: square;
-  border-block: dashed #3fc5a8;
+  border-block: dashed #2c938c;
 }
 
 .card {
   text-align:left;
-  background-color: #3F666B;
+  background-color: #024384f6;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
@@ -99,7 +99,7 @@ h6 {
   list-style: none;
   border-radius: var(--rounded);
   border: 2px solid rgb(0, 135, 224);
-  color: #3fc5a8;
+  color: #03886b;
   background-color: white;
   display: inline-flex;
   padding: 0.45rem 1rem;
@@ -154,14 +154,14 @@ h6 {
 
 .project-link {
   font-weight: bolder;
-  color: #3f666b;
+  color: #024384f6;
 }
 
 #skills,
 #certificates,
 #connect,
 #messages {
-  border-bottom: dashed #3fc5a8;
+  border-bottom: dashed #2c938c;
 }
 
 #certificates li {
@@ -174,7 +174,7 @@ h6 {
 
 .title {
   text-align:left;
-  background-color: #0467a0;
+  background-color: #024384f6;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
@@ -199,7 +199,6 @@ h6 {
 /* message section */
 form {
   margin: 20px;
-  padding: 30px;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -227,7 +226,7 @@ form>textarea {
 
 form>button,
 button {
-  background-color: #3f666b;
+  background-color: #024384f6;
   padding: 15px;
   color: white;
   font-size: 20px;
@@ -245,12 +244,12 @@ footer {
   padding: 35px;
   border-style: rgb(255, 255, 255);
   border-color: rgb(0, 0, 0);
-  background-color: #3f666b;
+  background-color: #024384f6;
   text-align: left;
 }
 
 ul#nav {
-  background-color: #3f666b;
+  background-color: #024384f6;
   font-weight: bold;
   font-size: 20px;
   top: 0px;

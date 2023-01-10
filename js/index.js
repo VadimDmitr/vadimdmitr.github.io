@@ -1,13 +1,42 @@
-/* Footer name and year */
 let today = new Date();
 let thisYear = today.getFullYear();
-let footer = document.querySelector('footer');
-let copyright = document.createElement('p');
-copyright.innerHTML = "&nbsp;&nbsp;&copy; Vadim Dmitrochenko, " + thisYear;;
-footer.appendChild(copyright);
+
+setInterval(function() {
+  var currentHour = new Date().getHours();
+  var currentMinute = new Date().getMinutes();
+  var currentSecond = new Date().getSeconds();
+
+  // Convert the hour to 12-hour format
+  var ampm = currentHour >= 12 ? 'PM' : 'AM';
+  currentHour = currentHour % 12;
+  currentHour = currentHour ? currentHour : 12; // 0 becomes 12
+
+  // Get the current date and month
+  var currentDate = today.getDate();
+  var currentMonth = today.getMonth();
+
+  // Convert the month to a word
+  var monthNames = ['January', 'February', 'March', 'April', 'May', 'June','July', 'August', 'September', 'October', 'November', 'December'
+  ];
+  var currentMonthName = monthNames[currentMonth];
+
+  // Format the time string
+  var currentTime = currentHour + ':' + currentMinute + ':' + currentSecond + ' ' + ampm;
+
+  let footer = document.querySelector('footer');
+  let copyright = document.createElement('p');
+  let date = document.createElement('p');
+
+  // Set the innerHTML of the footer element
+  document.querySelector("footer").innerHTML = "&nbsp;&nbsp;&copy; Vadim Dmitrochenko";
+  date.innerHTML = currentDate + " " + currentMonthName + " , " + thisYear + " " + currentTime;
+
+  // Append the date element to the footer
+  footer.appendChild(date);
+}, 1000);
 
 /* Skills */
-let skills = ['HTML', 'CSS', 'JavaScript', 'Git/Github', 'Google Services', 'VS-Code', 'Debugging'];
+let skills = ['REACT.JS', 'HTML', 'CSS', 'JavaScript', 'Git/Github', 'Google Services', 'VS-Code', 'Debugging'];
 let skillsSection = document.getElementById('skills');
 let skillsList = skillsSection.querySelector('ul');
 
@@ -101,7 +130,7 @@ fetch('https://api.github.com/users/VadimDmitr/repos')
       />
       <h3 class="project-title">${repositories[i].name}</h3>
       <p class="project-details">
-      Code the Dream software courses: HTML, CSS, Javascript, AJAX, API fetch, Git/GitHub, REACT.JS
+      Code the Dream software courses: REACT.JS, HTML, CSS, Javascript, AJAX, API fetch, Git/GitHub
       </p>
       Check it Out</a>`;
       projectList.appendChild(project);
