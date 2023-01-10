@@ -5,35 +5,30 @@ setInterval(function() {
   var currentHour = new Date().getHours();
   var currentMinute = new Date().getMinutes();
   var currentSecond = new Date().getSeconds();
+  var currentDate = new Date().getDate();
+  var currentMonth = new Date().getMonth();
+  var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
   // Convert the hour to 12-hour format
   var ampm = currentHour >= 12 ? 'PM' : 'AM';
   currentHour = currentHour % 12;
   currentHour = currentHour ? currentHour : 12; // 0 becomes 12
 
-  // Get the current date and month
-  var currentDate = today.getDate();
-  var currentMonth = today.getMonth();
-
-  // Convert the month to a word
-  var monthNames = ['January', 'February', 'March', 'April', 'May', 'June','July', 'August', 'September', 'October', 'November', 'December'
-  ];
-  var currentMonthName = monthNames[currentMonth];
-
   // Format the time string
-  var currentTime = currentHour + ':' + currentMinute + ':' + currentSecond + ' ' + ampm;
+  var currentTime = currentHour.toString().padStart(2, '0') + ':' + currentMinute.toString().padStart(2, '0') + ':' + currentSecond.toString().padStart(2, '0') + ' ' + ampm;
 
   let footer = document.querySelector('footer');
   let copyright = document.createElement('p');
-  let date = document.createElement('p');
+  let time = document.createElement('p');
 
   // Set the innerHTML of the footer element
-  document.querySelector("footer").innerHTML = "&nbsp;&nbsp;&copy; Vadim Dmitrochenko";
-  date.innerHTML = currentMonthName + " " + currentDate + " , " + thisYear + " " + currentTime;
+  document.querySelector("footer").innerHTML = "&nbsp;&nbsp;&copy; Vadim Dmitrochenko, " + thisYear + ";";
+  time.innerHTML = currentDate + ' ' + monthNames[currentMonth] + ' ' + currentTime;
 
-  // Append the date element to the footer
-  footer.appendChild(date);
+  // Append the time element to the footer
+  footer.appendChild(time);
 }, 1000);
+
 
 /* Skills */
 let skills = ['REACT.JS', 'HTML', 'CSS', 'JavaScript', 'Git/Github', 'Google Services', 'VS-Code', 'Debugging'];
