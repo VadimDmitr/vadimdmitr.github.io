@@ -125,11 +125,17 @@ fetch('https://api.github.com/users/VadimDmitr/repos')
       />
       <h3 class="project-title">${repositories[i].name}</h3>
       <p class="project-details">
-      Code the Dream software courses: REACT.JS, HTML, CSS, Javascript, AJAX, API fetch, Git/GitHub
+      Code the Dream Bootcamp courses: REACT.JS, HTML, CSS, Javascript, AJAX, API fetch, Git/GitHub
       </p>
       Check it Out</a>`;
       projectList.appendChild(project);
     };
   })
   .catch(error => console.log('Looks like there was a problem', error))
+  
+  let projectContainer = document.createElement('div');
+  //Add "grid-item" class to project container
+  projectContainer.classList.add("grid-item");
+  //Specify which row the project container should be in
+  projectContainer.style.gridRow = "1 / 2";
     

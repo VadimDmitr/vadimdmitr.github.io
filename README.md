@@ -8,7 +8,7 @@ Webpage contains: “About” section with: Level-two heading and text.
 
 “Skills” section with the following: Level-two heading with List of skills in a flex layout (inserted via JavaScript).
 
-“Projects” section with :  List of public repositories retrieved from GitHub API via Fetch. My working links in my Projects section that redirect us to my GitHub repositories.
+“Projects” section with :  List of public repositories retrieved from GitHub API via Fetch in a grid layout. My working links in my Projects section that redirect us to my GitHub repositories.
 
 Social media links (LinkedIn, GitHub). Social media links redirect to my social media accounts.
 

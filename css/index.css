@@ -118,8 +118,21 @@ h6 {
 }
 
 .projList {
-  display: flex;
+  
   padding: 10px;
+}
+
+.grid-container {
+    display: grid; /* display the items in a grid layout */
+    grid-template-columns: repeat(3, 1fr); /* create 3 columns with equal width */
+    grid-template-rows: repeat(2, 1fr); /* divide the grid into 2 rows */
+    grid-gap: 20px; /* add a 20px gap between each item */
+}
+
+.grid-item {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 .project-container {
@@ -138,14 +151,14 @@ h6 {
   align-items: center;
 }
 
-/* .project-details {
-  margin-bottom: 2px;
+/*.project-details {
+  margin-bottom: 15px;
   font-weight: lighter;
   color: black;
 } */
 
-
 .project-title {
+  font-size: 18.5px;
   margin-top: 0.5rem;
   font-weight: bold;
   color: black;
@@ -153,6 +166,7 @@ h6 {
 
 
 .project-link {
+  font-size: 19px;
   font-weight: bolder;
   color: #024384f6;
 }
@@ -291,17 +305,20 @@ ul#nav li a:hover {
 @media screen and (min-width: 767px) and (max-width: 1024px) {
   section {
     display: inline;
-    margin: 20px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
   }
 
   ul#nav {
-    display: contents;
+    display: inline-table;
   }
 
-  .projList {
-    display: inline-table;
-    padding: 10px;
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-item {
+    flex: 1; 
 }
 }
 
@@ -317,8 +334,13 @@ ul#nav li a:hover {
     display:inline-table;
   }
 
-  .projList {
-    display: inline-table;
-    padding: 10px;
-}
-}
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .grid-item {
+    flex: 1; 
+  }
+  }
+
