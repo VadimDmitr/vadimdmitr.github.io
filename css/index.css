@@ -328,6 +328,10 @@ ul#nav li a:hover {
   border-radius: 999px;
 }
 
+#experience {
+  margin: auto;
+}
+
 /* Media Queries for Tablets */
 @media screen and (min-width: 767px) and (max-width: 1024px) {
   section {
@@ -347,8 +351,12 @@ ul#nav li a:hover {
 
 .grid-item {
     flex: 1; 
-}
+  }
 
+#experience {
+  margin: auto;
+  }
+}
 /* Media Queries for Mobile Devices */
 @media screen and (max-width: 767px) {
   section {
@@ -369,5 +377,5 @@ ul#nav li a:hover {
   .grid-item {
     flex: 1; 
   }
-  }
+}
 
