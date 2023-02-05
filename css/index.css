@@ -81,12 +81,14 @@ h6 {
 .card {
   text-align:left;
   background-color: #024384f6;
-  border-radius: 3px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   color: white;
-  margin-bottom: 1rem;
+  margin-bottom: 1.8rem;
+  box-shadow: 2px 2px 10px #bababa,
+  2px 2px 10px #ffffff;
 }
 
 .leave_message {
@@ -105,6 +107,8 @@ h6 {
   padding: 0.45rem 1rem;
   margin-bottom: 0.8rem;
   margin-right: 0.8rem;
+  box-shadow: 2px 2px 10px #bababa,
+  2px 2px 10px #ffffff;
 }
 
 .project-pic {
@@ -122,10 +126,10 @@ h6 {
 }
 
 .grid-container {
-    display: grid; /* display the items in a grid layout */
-    grid-template-columns: repeat(3, 1fr); /* create 3 columns with equal width */
-    grid-template-rows: repeat(2, 1fr); /* divide the grid into 2 rows */
-    grid-gap: 20px; /* add a 20px gap between each item */
+  display: grid; /* display the items in a grid layout */
+  grid-template-columns: repeat(3, 1fr); /* create 3 columns with equal width */
+  grid-template-rows: repeat(2, 1fr); /* divide the grid into 2 rows */
+  grid-gap: 20px; /* add a 20px gap between each item */
 }
 
 .grid-item {
@@ -140,6 +144,7 @@ h6 {
   align-items: center;
   margin: auto;
   padding: 20px 20px;
+  margin-top: 55px;
 }
 
 .project-card {
@@ -148,6 +153,8 @@ h6 {
   box-shadow: 0 3px 10px gray;
   height: 25rem;
   align-items: center;
+  box-shadow: -2px -2px 15px #bababa,
+  2px 2px 15px #ffffff;
 }
 
 /*.project-details {
@@ -178,11 +185,14 @@ h6 {
 }
 
 #certificates li {
+  border-radius: 20px;
   list-style: square;
   flex-direction: column;
   align-content: flex-start;
   display: flex;
-  margin-top: auto;
+  margin: 0rem;
+  box-shadow: 2px 2px 10px #bababa,
+  2px 2px 10px #ffffff;
 }
 
 .title {
@@ -207,6 +217,12 @@ h6 {
   padding: 0rem 0.5rem;
   font-size: 25px;
   color: white;
+  display: flex;
+  padding: 0rem 3rem;
+  box-shadow: -2px -2px 10px #bababa, 2px 2px 10px #ffffff;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 15px;
 }
 
 /* message section */
@@ -231,6 +247,9 @@ form>textarea {
   margin: 5px;
   border-style: solid;
   flex: 5;
+  box-shadow: -2px -2px 10px #bababa,
+  2px 2px 10px #ffffff;
+  border-radius: 5px;
 }
 
 form>textarea {
@@ -244,6 +263,9 @@ button {
   color: white;
   font-size: 20px;
   border-radius: 20px;
+  box-shadow: 2px 2px 10px #bababa,
+  2px 2px 10px #ffffff;
+  margin-top: 25px;
 }
 
 #messages ul {
@@ -258,7 +280,9 @@ footer {
   border-style: rgb(255, 255, 255);
   border-color: rgb(0, 0, 0);
   background-color: #024384f6;
-  text-align: left;
+  text-align: left;box-shadow: 2px 2px 10px #bababa,
+  2px 2px 10px #ffffff;
+  border-radius: 15px;
 }
 
 ul#nav {
@@ -272,12 +296,16 @@ ul#nav {
   margin: 0px 0px 50px 0px;
   padding: 10px;
   border: 30px;
-  /* position: fixed;*/
+  box-shadow: 2px 2px 10px #bababa,
+  2px 2px 10px #ffffff;
+  border-radius: 15px;
 }
 
 ul#nav li {
   display: flex;
   float: left;
+  
+  border-radius: ;
 }
 
 ul#nav li a {
@@ -316,9 +344,9 @@ ul#nav li a:hover {
     display: flex;
     flex-wrap: wrap;
 }
+
 .grid-item {
     flex: 1; 
-}
 }
 
 /* Media Queries for Mobile Devices */
