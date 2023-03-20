@@ -125,7 +125,7 @@ fetch('https://api.github.com/users/VadimDmitr/repos')
       />
       <h3 class="project-title">${repositories[i].name}</h3>
       <p class="project-details">
-      Code the Dream Bootcamp courses: REACT.JS, HTML, CSS, Javascript, AJAX, API fetch, Git/GitHub
+      REACT.JS, HTML, CSS, Javascript, AJAX, API fetch, Git/GitHub
       </p>
       Check it Out</a>`;
       projectList.appendChild(project);
