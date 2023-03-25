@@ -1,22 +1,82 @@
-Portfolio is published on public GitHub repository. Repository includes  index.html file at root-level and JS and SCC files.
+# Portfolio
 
-Webpage contains header navigation menu with : My name, Links to “About” section, “Experience” , "Certificates", “Skills” ,“Projects”  and “Leave a Message” sections. My navigation links direct us to the differrent sections of this page.
+This portfolio is published on a public GitHub repository. The repository includes an `index.html` file at the root-level, and JS and CSS files.
 
-Webpage contains: “About” section with: Level-two heading and text.
+## Webpage Contents
 
-“Experience” section with the following: Level-two heading, List of previous work experience in а flex lay-out.
+### Header Navigation Menu
 
-“Skills” section with the following: Level-two heading with List of skills in a flex layout (inserted via JavaScript).
+The header navigation menu contains:
 
-“Projects” section with :  List of public repositories retrieved from GitHub API via Fetch in a grid layout. My working links in my Projects section that redirect us to my GitHub repositories.
+- My name
+- Links to:
+  - About section
+  - Experience section
+  - Certificates section
+  - Skills section
+  - Projects section
+  - Leave a Message section
 
-Social media links (LinkedIn, GitHub). Social media links redirect to my social media accounts.
+These navigation links direct users to different sections of the page.
 
- “Leave a Message” section with the following: Level-two heading. Form with “Name”, “Email Address”, and “Message” fields. Submit button, Form submit event listener that adds message to list.
-My working Leave a Message section by entering name, email, and message information.‘Delete’ feature to remove the message.
+### About Section
 
- Webpage contains “Messages” section with the following: List of messages in a flex layout. Each list item has the following: Message text, Name of message author with “mailto” link to email address, “Remove” button that deletes message from list.
+The About section contains:
 
-Webpage contains footer with the Copyright text, current time and year (inserted via JavaScript) 
+- A level-two heading
+- Text
 
+### Experience Section
 
+The Experience section contains:
+
+- A level-two heading
+- A list of previous work experience in a flex layout
+
+### Skills Section
+
+The Skills section contains:
+
+- A level-two heading
+- A list of skills in a flex layout (inserted via JavaScript)
+
+### Projects Section
+
+The Projects section contains:
+
+- A list of public repositories retrieved from the GitHub API via Fetch in a grid layout
+- Working links that redirect users to my GitHub repositories
+
+### Social Media Links
+
+The webpage includes social media links to my LinkedIn and GitHub profiles.
+
+### Leave a Message Section
+
+The Leave a Message section contains:
+
+- A level-two heading
+- A form with:
+  - Name field
+  - Email Address field
+  - Message field
+  - Submit button
+  - Form submit event listener that adds the message to the list
+- A 'Delete' feature to remove the message
+
+### Messages Section
+
+The Messages section contains:
+
+- A list of messages in a flex layout
+- Each list item includes:
+  - Message text
+  - Name of message author with a "mailto" link to their email address
+  - A "Remove" button that deletes the message from the list
+
+### Footer
+
+The footer contains:
+
+- Copyright text
+- Current time and year (inserted via JavaScript)
