@@ -24,7 +24,7 @@ Follow these steps to set up the project on your local machine:
    git clone https://github.com/VadimDmitr/vadimdmitr.github.io.git
 
 2.  Change the current working directory to the project folder:
-   ```bash
+   
    cd vadimdmitr.github.io
 
 3.  Open the index.html file in your preferred web browser to view the portfolio webpage.
