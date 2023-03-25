@@ -25,11 +25,11 @@ Follow these steps to set up the project on your local machine:
 
 2.  Change the current working directory to the project folder:
    
-   cd vadimdmitr.github.io
+      cd vadimdmitr.github.io
 
 3.  Open the index.html file in your preferred web browser to view the portfolio webpage.
 
-Alternatively, you can use a local development server, such as Live Server for Visual Studio Code, to serve your project.
+      Alternatively, you can use a local development server, such as Live Server for Visual Studio Code, to serve your project.
 
 4.  Open the project folder in your preferred code editor to start making changes and customizations.
 
