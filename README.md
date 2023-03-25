@@ -2,6 +2,37 @@
 
 This portfolio is published on a public GitHub repository. The repository includes an `index.html` file at the root-level, and JS and CSS files.
 
+## Getting Started
+
+These instructions will help you set up and run the portfolio project on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Before running the project, make sure you have the following software installed on your system:
+
+- A modern web browser (e.g., Google Chrome, Mozilla Firefox, or Microsoft Edge)
+- A code editor (e.g., Visual Studio Code, Sublime Text, or Atom)
+- [Git](https://git-scm.com/) (for version control and cloning the repository)
+
+### Installation
+
+Follow these steps to set up the project on your local machine:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/VadimDmitr/vadimdmitr.github.io.git
+
+2.  Change the current working directory to the project folder:
+   ```bash
+   cd vadimdmitr.github.io
+
+3.  Open the index.html file in your preferred web browser to view the portfolio webpage.
+
+Alternatively, you can use a local development server, such as Live Server for Visual Studio Code, to serve your project.
+
+4.  Open the project folder in your preferred code editor to start making changes and customizations.
+
 ## Webpage Contents
 
 ### Header Navigation Menu
