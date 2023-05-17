@@ -23,15 +23,17 @@ Follow these steps to set up the project on your local machine:
    ```bash
    git clone https://github.com/VadimDmitr/vadimdmitr.github.io.git
 
-2.  Change the current working directory to the project folder:
-   
-      cd vadimdmitr.github.io
+   ```
 
-3.  Open the index.html file in your preferred web browser to view the portfolio webpage.
+2. Change the current working directory to the project folder:
 
-      Alternatively, you can use a local development server, such as Live Server for Visual Studio Code, to serve your project.
+   cd vadimdmitr.github.io
 
-4.  Open the project folder in your preferred code editor to start making changes and customizations.
+3. Open the index.html file in your preferred web browser to view the portfolio webpage.
+
+   Alternatively, you can use a local development server, such as Live Server for Visual Studio Code, to serve your project.
+
+4. Open the project folder in your preferred code editor to start making changes and customizations.
 
 ## Webpage Contents
 
